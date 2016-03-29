@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="180dp"
+    android:id="@+id/layout_root"
+    android:orientation="vertical" 
+    android:background="@drawable/toggle_back"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        >
+
+        <TextView
+            android:id="@+id/dialog_pw_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="알림을 받으시겠습니까?"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:gravity="center"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/buttonpanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+
+    >
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            ></LinearLayout>
+
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:background="@drawable/toggle_selector"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            ></LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
